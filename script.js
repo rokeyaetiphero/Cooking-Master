@@ -23,7 +23,7 @@ const searchDish = (e) =>{
                    dishes.innerHTML = foods.map((f)=>`
                    <div onclick=displayFoodDetail("${f.idMeal}") class="card">
                          <img src="${f.strMealThumb}" alt="${f.strMeal}">
-                          <h5>${f.strMeal}</h5>
+                          <p>${f.strMeal}</p>
                        </div>
                    `).join("");
              }

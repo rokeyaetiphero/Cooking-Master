@@ -49,8 +49,7 @@ input[type="text"]{
     cursor: pointer;
     border-left: 0;
     border-radius: 0;
-    border-top-right-radius: 4px;
-    border-bottom-right-radius: 4px;
+    border-radius: 4px;
 }
 
 .dish{
@@ -72,6 +71,7 @@ input[type="text"]{
 .card img{
     width: 100%;
     border-radius: 6px;
+    margin-bottom: 10px;
 }
 
 @media(max-width: 800px){
@@ -130,7 +130,7 @@ input[type="text"]{
     overflow: hidden;
   }
   
-  li {
+ #navbar li {
     float: left;
   }
   
@@ -138,15 +138,16 @@ input[type="text"]{
     display: block;
     color: mistyrose;
     text-align: center;
-    padding: 11px 16px;
+    padding: 20px 16px;
     text-decoration: none; 
     font-size: 15px;
     font-weight: bold;
+    margin-top: 12px;
   }
 
   li a {
     display: block;
-    color: purple;
+    color: midnightblue;
     text-align: center;
     padding: 20px 16px;
     text-decoration: none;
@@ -163,7 +164,24 @@ input[type="text"]{
   }
 
   #container h1{
-      color: teal;
+      color: #80008078;
   }
+
+  .card p{
+      color: indigo;
+      font-weight: bold;
+  }
+
+  .card2 h2{
+      color: purple;
+  }
+
+  .card2 li{
+    color: lemonchiffon;
+  }
+
+  .card2 h4{
+    color: maroon;
+}
 
 
