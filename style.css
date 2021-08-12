@@ -4,14 +4,14 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background: darksalmon;
+    background: indianred;
     color: #fff;
     margin: 0;
 }
 
-.container{
+#container{
     margin:  auto;
-    max-width: 800px;
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,6 +25,11 @@ body{
 
 .flex{
     display: flex;
+}
+
+.flex input{
+    text-align: center;
+    font-weight: bold;
 }
 
 input,button{
@@ -48,5 +53,117 @@ input[type="text"]{
     border-bottom-right-radius: 4px;
 }
 
+.dish{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-top: 40px;
+}
+
+.card{
+     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+     transition: 0.3s;
+     width: 90%;
+     height: auto;
+     text-align: center;
+     border-radius: 6px;
+}
+
+.card img{
+    width: 100%;
+    border-radius: 6px;
+}
+
+@media(max-width: 800px){
+  .dish{
+      grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media(max-width: 700px){
+    .dish{
+        grid-template-columns: repeat(2, 1fr);
+    } 
+}
+
+@media(max-width: 500px){
+    
+}
+
+.card2 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 350px;
+    font-family: arial;
+    border-radius: 9px;
+    height: auto;
+    overflow:hidden;
+  }
+
+  .card2 img{
+    border-radius: 9px;
+    
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+
+  .single-food{
+    margin:  auto;
+    max-width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+
+  .text{
+      margin: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li p{
+    display: block;
+    color: mistyrose;
+    text-align: center;
+    padding: 11px 16px;
+    text-decoration: none; 
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  li a {
+    display: block;
+    color: purple;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+  }
+
+  #navbar{
+      max-width: 900px;
+      margin-left: 200px;
+  }
+
+  .icon{
+      font-size: 27px;
+      font-weight: bold;
+  }
+
+  #container h1{
+      color: teal;
+  }
 
 

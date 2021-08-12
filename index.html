@@ -13,20 +13,33 @@
 </head>
 
 <body>
-  <div class="container">
+  <ul id="navbar">
+    <li class="nav-item" style="float:right"><p>Blog</p></li>
+    <li  class="nav-item"  style="float:right"><p>Recipes</p></li>
+    <li  class="nav-item"  style="float:right"><p>About</p></li>
+    <li  class="nav-item"  style="float:right"><p>Home</p></li>
+    <li><a class="active icon" href="#about">Cooking Master</a></li>
+  </ul>
+  
+  <div class="single-food">
+    <div id="food-detail"></div>
+  </div>
+
+ 
+  <div id="container">
+
     <h1>Cooking Master</h1>
-     <div class="flex">
+     
+      <div class="flex">
         <form class="flex" id="submit">
-            <input type="text" id="search" placeholder="search for dish">
+            <input type="text" id="search" placeholder="search dish by a single letter">
             <button class="search-btn" type="submit">
               &#x1F50E;
             </button>
         </form>
-       
      </div>
-       <div class="result-heading"></div>
-       <div id="dish" class="dish"></div>
-       <div id="single-dish"></div>
+     
+       <div id="meals" class="dish"></div>
   </div>
     <!-- javaScript file -->
     <script src="script.js"></script>
