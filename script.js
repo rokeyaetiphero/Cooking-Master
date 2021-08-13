@@ -47,7 +47,7 @@ const seeFullIngredients = (food) => {
     container.style.display = 'none';
     const foodDetail = document.getElementById('food-detail');
     foodDetail.innerHTML =`
-    <div class="card2">
+    <div class="card2 bg-white">
     <img src="${food.strMealThumb}" alt="John" style="width:100%">
      <div class="text">
      <h2>${food.strMeal}</h2>

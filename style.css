@@ -4,7 +4,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background: indianred;
+    background: olive;
     color: #fff;
     margin: 0;
 }
@@ -177,7 +177,7 @@ input[type="text"]{
   }
 
   .card2 li{
-    color: lemonchiffon;
+    color: darkgreen;
   }
 
   .card2 h4{
