@@ -87,7 +87,9 @@ input[type="text"]{
 }
 
 @media(max-width: 500px){
-    
+   #navbar{
+       display: none;
+   } 
 }
 
 .card2 {
